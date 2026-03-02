@@ -1,0 +1,43 @@
+# Local environment and secrets
+.env
+.env.*
+
+# Python caches and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Large model and dataset artifacts
+*.gguf
+*.ggml
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.tar
+*.tar.gz
+*.zip
+*.npz
+*.npy
+
+# Training and runtime outputs
+training/output/
+offload_runtime/
+
+# ROS / build artifacts
+build/
+install/
+log/
+ws_g1/build/
+ws_g1/install/
+ws_g1/log/
+
+# Local logs and temp files
+*.log
+*.tmp
+*.bak
